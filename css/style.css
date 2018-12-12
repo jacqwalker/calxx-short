@@ -17,8 +17,6 @@ body {
   line-height: 1.5;
 }
 
-sdfasdfadsf
-
 img {
   display: block;
   width: 100%;
@@ -912,7 +910,9 @@ ol {
   top: -40px;
 }
 
-asdfasdfadsf
+.img-2 {
+  display: none;
+}
 
 .main-container-job-search {
   width: 85%;
@@ -973,16 +973,19 @@ asdfasdfadsf
 
 /*job alerts page styling*/
 .post-header-section-job-alerts {
-  background: url(../images/big_ben.jpg) center center no-repeat;
-  background-color: #525f71;
-  background-blend-mode: screen;
+  background: url(../images/header-banner-minusguy.jpg) center center no-repeat;
+  padding: 0 7.5%;
+}
+
+.job-alerts-heading {
+  margin: 5%;
 }
 
 .job-alerts-infobox {
-  background-color: #525f71;
-  border: 2px solid #fff;
+  border: 5px solid #09c1b3;
   padding: 5%;
   margin: 25px auto;
+  border-radius: 3px;
 }
 
 .job-alerts-form-box, .home-page-form-box {
@@ -990,13 +993,6 @@ asdfasdfadsf
   padding: 10px;
   margin-top: 0;
 }
-
-.job-alerts-sub-section {
-  background-color: #f5f5f5;
-  padding: 20% 10%;
-  text-align: center;
-}
-
 /*end of job alerts page styling*/
 
 /*unsubscribe page styling*/
@@ -1494,7 +1490,13 @@ asdfasdfadsf
   }
 
   .main-container-blog, .main-container-job-search {
+    width: 85%;
+  }
+
+  .blog-wrapper {
     width: 45%;
+    margin-left: 25px;
+    padding: 20px;
   }
   /*our blog page styling*/
 
@@ -1527,6 +1529,18 @@ asdfasdfadsf
   /*search page syling*/
   .job-page-search-img {
     top: -75px;
+  }
+
+  .img-1 {
+    display: none;
+  }
+
+  .img-2 {
+    display: block;
+  }
+
+  .main-container-job-search {
+    margin-top: 30px;
   }
 
   .flex-item1 {
@@ -1733,8 +1747,6 @@ asdfasdfadsf
 
   .blog-wrapper {
     width: 30%;
-    margin-left: 25px;
-    padding: 20px;
   }
 
   .form-style {
@@ -1779,6 +1791,11 @@ asdfasdfadsf
   /*search page styling*/
   .main-container-job-search {
     margin-bottom: 100px;
+  }
+
+  .job-page-search-img {
+    width: 75%;
+    margin: 0 auto;
   }
   /*end of search page styling*/
 
@@ -1916,6 +1933,12 @@ asdfasdfadsf
   }
   /* end of blog post styling */
   
+  /*search page styling*/
+  .job-page-search-img {
+    width: 60%;
+  }
+  /*end of search page styling*/
+
   /*unsubscribe page styling*/
   .unsubscribe-page-styling {
     width: 20%;
@@ -2019,7 +2042,7 @@ asdfasdfadsf
 
   /*search page styling*/
   .main-container-job-search {
-    width: 80%;
+    width: 95%;
     margin: 50px auto 150px;
   }
   /*end of search page styling*/
