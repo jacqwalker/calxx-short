@@ -195,12 +195,6 @@ header {
   margin: 25px auto;
 }
 
-/*.form-textbox {
-  width: 100%;
-  margin-bottom: 10px;
-  padding: 7.5px;
-}*/
-
 .form-submit-btn {
   font-size: 18px;
   padding: 10px 0;
@@ -971,7 +965,6 @@ ol {
 /*end of search page styling*/
 
 /*role page styling*/
-/*Role page styling*/
 .role-page-header-section {
   background: url(../images/header-banner-minusguy.jpg) center center no-repeat;
   background-size: cover;
@@ -979,7 +972,6 @@ ol {
 }
 
 .role-page-job-alerts-btn {
-  border-radius: 60px;
   margin-bottom: 0;
   padding: 7.5px 2.5px;
   display: inline-block;
@@ -1244,7 +1236,6 @@ ol {
 .similar-job-heading {
   color: black;
 }
-/*end of role page styling*/
 /*end of role page styling*/
 
 /*job alerts page styling*/
