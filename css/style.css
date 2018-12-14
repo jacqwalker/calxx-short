@@ -1315,29 +1315,33 @@ ol {
 /*end of 404 error page styling*/
 
 /*advert page styling*/
-.circle-two {
-  background-color: #09c1b3;
-  font-size: 25px;
-  cursor: pointer;
-  padding: 7.5px 7.5px 12.5px 12.5px;
-  height: 50px;
-  width: 50px;
-  line-height: 50px;
-  border-radius: 50%;
-}
-
-.advert-main-container {
-  background-color: #dde4ec;
-  padding: 20% 0 30%;
+.advert-page {
+  background-color: #525f71;
+  padding: 50px 0;
 }
 
 .advert-container-heading {
-  color: #525f71;
   font-family: 'Roboto', sans-serif;
   letter-spacing: 0;
   padding-bottom: 5px;
-  border-bottom: 2px solid #b7b7b7;
   font-size: 36px;
+}
+
+.advert-page-boxes {
+  background-color: #334960;
+  border: 1px solid #4e6f92;
+  margin: 0 auto;
+  padding: 25px;
+}
+
+.advert-icons {
+  background-color: #09c1b3;
+  border: 1px solid #fff;
+}
+
+.advert-main-container {
+  background-color: #f17c72;
+  padding: 20% 0 30%;
 }
 
 .advert-container {
@@ -1346,21 +1350,25 @@ ol {
 }
 
 .advert-form {
-  background: linear-gradient(#f1f3f4, #f8f9f9);
+  /*background: linear-gradient(#f1f3f4, #f8f9f9);*/
+  background-color: #e6655e;
   padding: 5%;
   font-size: 15px;
   color: #525f71;
+  border: 3px solid #f4948b;
 }
 
 .advert-container h4 {
   margin-top: 50px;
   font-family: 'Roboto', sans-serif;
+  color: #fff;
 }
 
 .advert-input, .advert-input-form {
-  background-color: rgba(0,0,0,0);
+  /*background-color: rgba(0,0,0,0);*/
+  background-color: #fff;
   border: none;
-  border-bottom: 1.5px solid #09c1b3;
+  /*border-bottom: 1.5px solid #09c1b3;*/
   padding: 12.5px 7.5px;
   width: 90%;
   margin-top: 15px;
@@ -1383,6 +1391,7 @@ ol {
 .advert-para, .advert-para-two, .advert-para-three {
   margin: 15px 0 0;
   font-size: 15px;
+  color: #fff;
 }
 
 .advert-tickbox {
@@ -1440,7 +1449,7 @@ ol {
 
 .advert-textarea {
   margin-top: 15px;
-  background-color: #eee;
+  background-color: #fff;
   border: 1px solid #eee;
   border-radius: 5px;
   min-height: 150px;
