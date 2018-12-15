@@ -63,7 +63,7 @@
 
     <main>
     	<section class="font-white advert-page">
-    		<h1 class="advert-container-heading bold centre font-white">Job posting</h1>
+    		<h1 class="advert-container-heading bold centre font-white">Job advertisement</h1>
     		<div class="icon-divider centre">
     			<i class="fa fa-circle"></i>
     			<i class="fa fa-circle"></i>
@@ -77,8 +77,8 @@
 	    		
 	    		<form action="" method="post" enctype="multipart/form-data" class="advert-form">
 	    			
-	    			<p class="advert-para centre">To advertise a role on our website, please fill in the below form.</p>
-	    			<p class="advert-para centre">If you would like to advertise a full job description (refer to <a href="#" class="font-blue link" target="_blank">example</a>) and use our platform to receive applications, please email us at <a href="mailto:hello@calxx.co.uk" class="font-blue link">hello@calxx.co.uk</a> for more information.</p>
+	    			<h1 class="advert-container-heading bold centre font-white">Please complete all fields below</h1>
+	    			<p class="advert-para centre">If you have any questions please do not hesitate to email us at <a href="mailto:hello@calxx.co.uk" class="font-blue link">hello@calxx.co.uk</a>
 
 	    			<div class="success"><?= $submissionmessage ?></div>
 	    			<h4 class="bold">Your information</h4>
@@ -201,7 +201,7 @@
 	    			 <input placeholder="Linkedin page link" type="text" name="linkedinpagelink" value="<?= $linkedinpagelink ?>" tabindex="22" class="advert-input width-adj">
 	    			</fieldset>
 
-					<h4 class="bold">You nearly there - just a couple more things</h4>
+					<h4 class="bold">And finally ...</h4>
 					
 	    			
 	    			<label>
@@ -211,8 +211,8 @@
 	    			</label>	 
 
 	    			<p class="advert-para-three">Please select your preferred pricing package</p>
-	    			<label class="advert-tickbox font-white">Standard - £749 ex VAT
-	  				 <input type="radio" name="pricing" value="Standard - £749 ex VAT" tabindex="24" <?php if ($_POST['pricing'] == 'Standard - £749 ex VAT') echo 'checked="checked" ';?>" >
+	    			<label class="advert-tickbox font-white">Standard - £849 ex VAT
+	  				 <input type="radio" name="pricing" value="Standard - £849 ex VAT" tabindex="24" <?php if ($_POST['pricing'] == 'Standard - £849 ex VAT') echo 'checked="checked" ';?>" >
 	  				 <span class="checkmark"></span>
 					</label>
 
@@ -221,8 +221,8 @@
 	  				 <span class="checkmark"></span>
 					</label>
 
-	    			<label class="advert-tickbox font-white">Premium - £1,249 ex VAT
-	  				 <input type="radio" name="pricing" value="Premium - £1,249 ex VAT" tabindex="26" <?php if ($_POST['pricing'] == 'Premium - £1,249 ex VAT') echo 'checked="checked" ';?>">
+	    			<label class="advert-tickbox font-white">Premium - £1,149 ex VAT
+	  				 <input type="radio" name="pricing" value="Premium - £1,149 ex VAT" tabindex="26" <?php if ($_POST['pricing'] == 'Premium - £1,149 ex VAT') echo 'checked="checked" ';?>">
 	  				 <span class="checkmark"></span>
 					</label>
 	    			<p class="error"><?= $pricing_error ?></p> 

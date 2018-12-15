@@ -450,7 +450,7 @@ header {
   width: 150px;
 }
 
-.pricing-btn:hover, .how-it-works-btn:hover, .pricing-btn-adj:hover, .advert-btn:hover, .blog-btn:hover {
+.pricing-btn:hover, .how-it-works-btn:hover, .pricing-btn-adj:hover, .blog-btn:hover {
   background-color: #525f71;
   color: #fff;
 }
@@ -1325,11 +1325,18 @@ ol {
   font-family: 'Roboto', sans-serif;
   font-size: 36px;
   margin-bottom: 25px;
+  letter-spacing: 3px;
+}
+
+.icon-divider {
+  margin: 10px auto 50px;
+}
+
+.icon-divider i {
+  margin-right: 10px;
 }
 
 .advert-main-container {
-  /*background-color: #f17c72;*/
-  padding: 0 0 10%;
   position: relative;
   top: -50px;
 }
@@ -1340,8 +1347,6 @@ ol {
 }
 
 .advert-form {
-  /*background: linear-gradient(#f1f3f4, #f8f9f9);*/
-  /*background-color: #e6655e;*/
   background-color: #525f71;
   padding: 5%;
   font-size: 15px;
@@ -1353,13 +1358,12 @@ ol {
   margin-top: 50px;
   font-family: 'Roboto', sans-serif;
   color: #fff;
+  letter-spacing: 2px;
 }
 
 .advert-input, .advert-input-form {
-  /*background-color: rgba(0,0,0,0);*/
   background-color: #fff;
   border: none;
-  /*border-bottom: 1.5px solid #09c1b3;*/
   padding: 12.5px 7.5px;
   width: 90%;
   margin-top: 15px;
@@ -1465,6 +1469,14 @@ ol {
   padding: 12.5px 20px;
   border: none;
   margin: 20px 0;
+}
+
+.advert-btn:hover {
+  background-color: #f4948b;
+}
+
+.link:hover {
+  color: #f4948b;
 }
 
 /*end of advert page styling*/
@@ -1614,7 +1626,7 @@ ol {
 
   /*role advert page*/
   .advert-container {
-    width: 60%;
+    width: 70%;
   }
 
   .advert-input, .advert-input-form {
@@ -1879,7 +1891,7 @@ ol {
 
   /*role advert page*/
   .advert-container {
-    width: 50%;
+    width: 60%;
   }
   /*end of role advert page styling*/
 }
@@ -2438,7 +2450,7 @@ ol {
 
   /*advert page styling*/
   .advert-container {
-    width: 40%;
+    width: 50%;
   }
 
   .advert-select {
