@@ -1316,37 +1316,22 @@ ol {
 
 /*advert page styling*/
 .advert-page {
-  background-color: #525f71;
+  background: url(../images/header-banner-minusguy.jpg) center center no-repeat;
+  background-size: cover;
   padding: 50px 0;
 }
 
 .advert-container-heading {
   font-family: 'Roboto', sans-serif;
-  letter-spacing: 0;
-  padding-bottom: 5px;
   font-size: 36px;
-}
-
-.job-advert-container {
-  width: 80%;
-  margin: 20px auto 0;
-}
-
-.advert-page-boxes {
-  background-color: #334960;
-  border: 1px solid #4e6f92;
-  margin: 0 auto 15px;
-  padding: 25px;
-}
-
-.advert-icons {
-  background-color: #09c1b3;
-  border: 1px solid #fff;
+  margin-bottom: 25px;
 }
 
 .advert-main-container {
-  background-color: #f17c72;
-  padding: 20% 0 30%;
+  /*background-color: #f17c72;*/
+  padding: 0 0 10%;
+  position: relative;
+  top: -50px;
 }
 
 .advert-container {
@@ -1356,7 +1341,8 @@ ol {
 
 .advert-form {
   /*background: linear-gradient(#f1f3f4, #f8f9f9);*/
-  background-color: #e6655e;
+  /*background-color: #e6655e;*/
+  background-color: #525f71;
   padding: 5%;
   font-size: 15px;
   color: #525f71;
@@ -1627,10 +1613,6 @@ ol {
   /* end of job alerts page */
 
   /*role advert page*/
-  .advert-main-container {
-    padding: 15% 0 25%;
-  }
-
   .advert-container {
     width: 60%;
   }
@@ -2181,8 +2163,12 @@ ol {
   /*end of unsubscribe page styling*/
 
   /*role advert page*/
+  .advert-page {
+    padding: 75px 0 100px;
+  }
+
   .advert-main-container {
-     padding: 7.5% 0 17.5%;
+    top: -100px;
   }
 
   .input-container {
@@ -2453,10 +2439,6 @@ ol {
   /*advert page styling*/
   .advert-container {
     width: 40%;
-  }
-
-  .advert-main-container {
-    padding: 5% 0 12.5%;
   }
 
   .advert-select {

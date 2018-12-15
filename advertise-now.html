@@ -63,41 +63,20 @@
 
     <main>
     	<section class="font-white advert-page">
-    		<h1 class="advert-container-heading bold centre">Job posting</h1>
-    		<div class="centre job-advert-container">
-    			<div class="row-flex">
-	    			<div class="advert-page-boxes">
-	    				<div class="how-it-works-icons advert-icons">
-	    					<i class="fa fa-pencil"></i>
-	    				</div>
-	    			
-	    				<p>To advertise your role on our website, please fill in the form below</p>
-	    			</div>
-
-		    		<div class="advert-page-boxes">
-		    			<div class="how-it-works-icons advert-icons">
-		    				<i class="fa fa-linkedin"></i>
-		    			</div>
-		    			
-		    			<p>You can also use our application forms and receive applications directly to your inbox</p>
-		    		</div>
-
-
-		    		<div class="advert-page-boxes">
-		    			<div class="how-it-works-icons advert-icons">
-		    				<i class="fa fa-envelope-o"></i>
-		    			</div>
-		    			
-		    			<p>Email us at <a href="email:hello@calxx.co.uk" class="font-blue">hello@calxx.co.uk</a> if you have any questions</p>
-		    		</div>
-    			</div>
+    		<h1 class="advert-container-heading bold centre font-white">Job posting</h1>
+    			
+    			
     		</div>  		
     	</section>
 
     	<section class="advert-main-container">
     		<section class="advert-container">
-	    		<h1 class="advert-container-heading bold font-white">Complete the form</h1>
+	    		
 	    		<form action="" method="post" enctype="multipart/form-data" class="advert-form">
+	    			
+	    			<p class="advert-para centre">To advertise a role on our website, please fill in the below form.</p>
+	    			<p class="advert-para centre">If you would like to advertise a full job description (refer to <a href="#" class="font-blue" target="_blank">example</a>) and use our platform to receive applications, please email us at <a href="mailto:hello@calxx.co.uk" class="font-blue">hello@calxx.co.uk</a> for more information.</p>
+	    			<!-- <h1 class="advert-container-heading bold font-white">Complete the form</h1> -->
 	    			<div class="success"><?= $submissionmessage ?></div>
 	    			<h4 class="bold">Your information</h4>
 	    			<div class="input-container">
@@ -151,41 +130,41 @@
 	    			 <p class="error"><?= $numberofyearsPQE_error ?></p>
 	    			
 	    			<p class="advert-para">Is this a full-time or part-time role?</p>
-	    			<label class="advert-tickbox">Full-time
+	    			<label class="advert-tickbox font-white">Full-time
 	  				 <input type="radio" name="roleterm" value="full-time" tabindex="11" <?php if ($_POST['roleterm'] == 'full-time') echo 'checked="checked" ';?>>
 	  				 <span class="checkmark"></span>
 					</label>
-					<label class="advert-tickbox">Part-time
+					<label class="advert-tickbox font-white">Part-time
 	  				 <input type="radio" name="roleterm" value="part-time" tabindex="12" <?php if ($_POST['roleterm'] == 'part-time') echo 'checked="checked" ';?>>
 	  				 <span class="checkmark"></span>
 					</label>
 	    			<p class="error"><?= $roleterm_error ?></p>
 
 	    			<p class="advert-para">Is this a permanent or contract role?</p>
-	    			<label class="advert-tickbox">Permanent
+	    			<label class="advert-tickbox font-white">Permanent
 	  				 <input type="radio" name="roletype" value="Permanent" tabindex="13" <?php if ($_POST['roletype'] == 'Permanent') echo 'checked="checked" ';?>>
 	  				 <span class="checkmark"></span>
 					</label>
-					<label class="advert-tickbox">Contract
+					<label class="advert-tickbox font-white">Contract
 	  					<input type="radio" name="roletype" value="Contract" tabindex="14" <?php if ($_POST['roletype'] == 'Contract') echo 'checked="checked" ';?>>
 	  					<span class="checkmark"></span>
 					</label>
 	    			<p class="error"><?= $roletype_error ?></p> 
 
 	    			<p class="advert-para" name="sectorexperience" value="<?= $sectorexperience ?>">Is sector (i.e. retail, media etc) experience:</p>
-	    			<label class="advert-tickbox">Essential
+	    			<label class="advert-tickbox font-white">Essential
 	  				 <input type="radio" name="sectorexperience" value="Essential" tabindex="15" <?php if ($_POST['sectorexperience'] == 'Essential') echo 'checked="checked" ';?>>
 	  				 <span class="checkmark"></span>
 					</label>
-					<label class="advert-tickbox">Preferred
+					<label class="advert-tickbox font-white">Preferred
 	  				 <input type="radio" name="sectorexperience" value="Preferred" tabindex="16" <?php if ($_POST['sectorexperience'] == 'Preferred') echo 'checked="checked" ';?>>
 	  				 <span class="checkmark"></span>
 					</label>
-					<label class="advert-tickbox">Advantageous
+					<label class="advert-tickbox font-white">Advantageous
 	  				 <input type="radio" name="sectorexperience" value="Advantageous" tabindex="17" <?php if ($_POST['sectorexperience'] == 'Advantageous') echo 'checked="checked" ';?>>
 	  				 <span class="checkmark"></span>
 					</label>
-					<label class="advert-tickbox">Not required
+					<label class="advert-tickbox font-white">Not required
 	  				 <input type="radio" name="sectorexperience" value="Not required" tabindex="18" <?php if ($_POST['sectorexperience'] == 'Not required') echo 'checked="checked" ';?>>
 	  				 <span class="checkmark"></span>
 					</label>
@@ -229,17 +208,17 @@
 	    			</label>	 
 
 	    			<p class="advert-para-three">Please select your preferred pricing package</p>
-	    			<label class="advert-tickbox">Standard - £749 ex VAT
+	    			<label class="advert-tickbox font-white">Standard - £749 ex VAT
 	  				 <input type="radio" name="pricing" value="Standard - £749 ex VAT" tabindex="24" <?php if ($_POST['pricing'] == 'Standard - £749 ex VAT') echo 'checked="checked" ';?>" >
 	  				 <span class="checkmark"></span>
 					</label>
 
-	    			<label class="advert-tickbox">Popular - £999 ex VAT
+	    			<label class="advert-tickbox font-white">Popular - £999 ex VAT
 	  				 <input type="radio" name="pricing" value="Popular - £999 ex VAT" tabindex="25" <?php if ($_POST['pricing'] == 'Popular - £999 ex VAT') echo 'checked="checked" ';?>" >
 	  				 <span class="checkmark"></span>
 					</label>
 
-	    			<label class="advert-tickbox">Premium - £1,249 ex VAT
+	    			<label class="advert-tickbox font-white">Premium - £1,249 ex VAT
 	  				 <input type="radio" name="pricing" value="Premium - £1,249 ex VAT" tabindex="26" <?php if ($_POST['pricing'] == 'Premium - £1,249 ex VAT') echo 'checked="checked" ';?>">
 	  				 <span class="checkmark"></span>
 					</label>
@@ -248,12 +227,12 @@
 	    			<h4 class="bold">Next steps</h4>
 	    			<p class="advert-para">Once you hit the submit button, the form is sent to us. We prepare the advert and send to you for approval. When you are 100% satisifed with the advert, we will ask for payment. Once payment is received, your role will be live for 30 days.</p>
 	    			<p class="advert-para">Please confirm that you agree to our <a href="https://www.calxx.co.uk/termsandconditions" target="_blank" class="font-blue">terms and conditions</a> and <a href="https://www.calxx.co.uk/privacypolicy" target="_blank" class="font-blue">privacy policy</a></p>
-	    			<label class="advert-tickbox">Yes
+	    			<label class="advert-tickbox font-white">Yes
 	  					<input type="radio" name="termsandconditions" value="Yes" tabindex="27" <?php if ($_POST['termsandconditions'] == 'Yes') echo 'checked="checked" ';?>">
 	  					<span class="checkmark"></span>
 					</label>
 
-	    			<label class="advert-tickbox">No
+	    			<label class="advert-tickbox font-white">No
 	  					<input type="radio" name="termsandconditions" value="No" tabindex="28" <?php if ($_POST['termsandconditions'] == 'No') echo 'checked="checked" ';?>">
 	  					<span class="checkmark"></span>
 					</label>
