@@ -621,7 +621,7 @@ footer nav li a:hover {
   text-align: center;
 }
 
-.blog-header-section h1 {
+.blog-header-section-heading {
   font-size: 28px;
   font-family: 'Merriweather', serif;
 }
@@ -846,17 +846,6 @@ ol {
   font-family: 'Quando', sans-serif;
   margin-bottom: 25px;
   font-size: 40px;
-  padding: 0 15px;
-}
-
-.role-page-job-alerts-section {
-  width: 70%;
-  margin: 0 auto;
-  position: relative;
-  top: -50px;
-  background-color: #525f71;
-  border: 3px solid #f4948b;
-  padding: 10px;
 }
 
 .overlay {
@@ -907,11 +896,6 @@ ol {
   color: white;
 }
 
-.job-search-page {
-  width: 80%;
-  margin: 0 auto;
-}
-
 .search-page-btn {
   margin-bottom: 25px;
 }
@@ -919,6 +903,8 @@ ol {
 .main-container-job-search {
   width: 85%;
   margin: 30px auto;
+  position: relative;
+  top: -75px;
 }
 
 .company-details {
@@ -1323,12 +1309,6 @@ ol {
 /*end of 404 error page styling*/
 
 /*advert page styling*/
-.advert-page {
-  background: url(../images/header-banner-minusguy.jpg) center center no-repeat;
-  background-size: cover;
-  padding: 50px 0;
-}
-
 .advert-container-heading {
   font-family: 'Roboto', sans-serif;
   font-size: 36px;
@@ -1479,7 +1459,7 @@ ol {
   margin: 20px 0;
 }
 
-.advert-btn:hover {
+.advert-btn:hover, .search-page-btn:hover {
   background-color: #f4948b;
 }
 
@@ -2106,14 +2086,6 @@ ol {
     font-size: 60px;
     margin-bottom: 5px;
   }
-
-  .role-page-job-alerts-section {
-    top: -75px;
-  }
-
-  .main-container-job-search {
-    margin-bottom: 100px;
-  }
   /*end of search page styling*/
 
   /*role page styling*/
@@ -2171,10 +2143,6 @@ ol {
   /*end of unsubscribe page styling*/
 
   /*role advert page*/
-  .advert-page {
-    padding: 75px 0 100px;
-  }
-
   .advert-main-container {
     top: -100px;
   }
@@ -2287,6 +2255,9 @@ ol {
   /* end of blog post styling */
   
   /*search page styling*/
+  .main-container-job-search {
+    top: -100px;
+  }
   /*end of search page styling*/
 
   /*role page styling*/
@@ -2423,7 +2394,6 @@ ol {
   /*search page styling*/
   .main-container-job-search {
     width: 95%;
-    margin: 50px auto 150px;
   }
   /*end of search page styling*/
 
