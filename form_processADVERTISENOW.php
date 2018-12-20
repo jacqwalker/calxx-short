@@ -165,7 +165,7 @@ if(isset($_POST["submit"])) {
         // $mail->AddBCC('jackie@calxx.co.uk');
 
         $mail->isHTML(true);                           // Set email format to HTML
-        $mail->Subject = 'We are interested in advertising a role with you';
+        $mail->Subject = 'We would like to place an advert';
         // $mail->Body    = 'This is the HTML message body <b>in bold!</b>';
         // $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
         $mail->Body = "<h2>Completed form for job posting</h2>"
@@ -183,7 +183,7 @@ if(isset($_POST["submit"])) {
         ."<p>Is this job full-time or part-time? " . $roleterm . "</p>"
         ."<p>Is this job permanent or temporary? " . $roletype . "</p>"
         ."<p>Is sector (i.e. retail, media etc): " . $sectorexperience . "</p>"
-        ."<p>The email address applications should be sent to: " . $email2 . "</p>"
+        ."<p>The website address candidates should be directed to: " . $email2 . "</p>"
         ."<p>The pricing package: " . $pricing . "</p>"
         ."<p>You agree to our terms and conditions: " . $termsandconditions . "</p>";
         
@@ -202,11 +202,9 @@ if(isset($_POST["submit"])) {
           // $mail->Body    = 'This is the HTML message body <b>in bold!</b>';
           // $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
           $mail->Body = "<p>Dear " . $first_name .",</p>"
-          ."<p>Thank you for your interest in advertising a role on calxx.</p>"
-          ."<p>
-          We have received your form and will prepare the role and send to you for approval within 24 hours.
-          </p>"
-          ."<p>If you have any questions, please do not hesitate to contact us either by replying to this email or you can contact Jackie at jackie@calxx.co.uk</p>"
+          ."<p>Thank you for your interest in advertising your role on calxx.</p>"
+          ."<p>We have received your form and will prepare the advert to send to you for approval within the next few hours.</p>"
+          ."<p>If you have any questions, please do get in touch by replying to this email.</p>"
           ."<p>Kind regards,</p>"
           ."<p>The calxx team</p>"
           ."<p>Calxx Limited, Registered in England and Wales. Company No 10852628. 37 Voltaire Building, 330 Garratt Lane, SW18 4FQ</p>";
@@ -216,7 +214,6 @@ if(isset($_POST["submit"])) {
           $first_name = $last_name = $email = $contactnumber = $company_name = ""; 
           $company_address = $company_website = "";
           $company_sector = $numberofyearsPQE = "";
-          $aboutCompany = $facebookpagelink = $twitterpagelink = $linkedinpagelink = "";
           $email2 = "";
           $_POST = array();
       } else {

@@ -126,11 +126,11 @@
 	    			
 	    			<p class="advert-para">Is this a full-time or part-time role?</p>
 	    			<label class="advert-tickbox font-white">Full-time
-	  				 <input type="radio" name="roleterm" value="full-time" tabindex="11" <?php if ($_POST['roleterm'] == 'full-time') echo 'checked="checked" ';?>>
+	  				 <input type="radio" name="roleterm" value="Full-time" tabindex="11" <?php if ($_POST['roleterm'] == 'full-time') echo 'checked="checked" ';?>>
 	  				 <span class="checkmark"></span>
 					</label>
 					<label class="advert-tickbox font-white">Part-time
-	  				 <input type="radio" name="roleterm" value="part-time" tabindex="12" <?php if ($_POST['roleterm'] == 'part-time') echo 'checked="checked" ';?>>
+	  				 <input type="radio" name="roleterm" value="Part-time" tabindex="12" <?php if ($_POST['roleterm'] == 'part-time') echo 'checked="checked" ';?>>
 	  				 <span class="checkmark"></span>
 					</label>
 	    			<p class="error"><?= $roleterm_error ?></p>

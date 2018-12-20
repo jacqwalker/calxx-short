@@ -311,7 +311,7 @@ if(isset($_POST["submit"])) {
           ."<p>
           We have received your form and will prepare the role and send to you for approval within 24 hours.
           </p>"
-          ."<p>If you have any questions, please do not hesitate to contact us either by replying to this email or you can contact Jackie at jackie@calxx.co.uk</p>"
+          ."<p>If you have any questions, please do not hesitate to contact us by replying to this email</p>"
           ."<p>Kind regards,</p>"
           ."<p>The calxx team</p>"
           ."<p>Calxx Limited, Registered in England and Wales. Company No 10852628. 37 Voltaire Building, 330 Garratt Lane, SW18 4FQ</p>";
