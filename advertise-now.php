@@ -1,4 +1,4 @@
-<?php include('form_processADVERTISE.php'); ?>
+<?php include('form_processADVERTISENOW.php'); ?>
 
 <!DOCTYPE html>
 <html>
@@ -62,7 +62,7 @@
     </header>
 
     <main>
-    	<section class="font-white advert-page">
+    	<section class="font-white blog-header-section">
     		<h1 class="advert-container-heading bold centre font-white">Job posting</h1>
     		<div class="icon-divider centre">
     			<i class="fa fa-circle"></i>
@@ -78,7 +78,7 @@
 	    		<form action="" method="post" enctype="multipart/form-data" class="advert-form">
 	    			<h1 class="advert-container-heading bold centre font-white">Please complete all fields below</h1>
 	    			<p class="advert-para centre">To advertise a role on our website, please fill in the below form.</p>
-	    			<p class="advert-para centre">If you would like to advertise a full job description (refer to <a href="#" class="font-blue link" target="_blank">example</a>) and use our platform to receive applications, please email us at <a href="mailto:hello@calxx.co.uk" class="font-blue link">hello@calxx.co.uk</a> for more information.</p>
+	    			<p class="advert-para centre">If you would like to advertise a full job description (click the link to see an <a href="https://www.calxx.co.uk/finance-business-partner-kingfisher-digital" class="font-blue link" target="_blank">example</a>) and use our platform to receive applications, please email us at <a href="mailto:hello@calxx.co.uk" class="font-blue link">hello@calxx.co.uk</a> for more information.</p>
 
 	    			<div class="success"><?= $submissionmessage ?></div>
 	    			<h4 class="bold">Your information</h4>
@@ -119,14 +119,6 @@
 	               	 <p class="error"><?= $companysector_error ?></p>
 	    			</div>
 	    			
-	    			<!-- <h4 class="bold">The role</h4>
-	    			<p class="advert-para">Attach the job description. Only word documents are accepted</p>
-	    			<label>
-	    			 <input type="hidden" name="MAX_FILE_SIZE" value="2000000">
-	                 <input type="file" class="apply-input-form advert-input-form" name="attached_file" tabindex="9" />
-	    			</label>
-	    			<p class="error"><?php echo $file_msg; ?></p> -->
-
 	    			<h4 class="bold">Key requirements</h4>
 	    			<p class="advert-para">How many years PQE are you looking for?</p>
 	    			 <input placeholder="Please list eg 2 to 3 years PQE" type="text" name="numberofyearsPQE" tabindex="10" class="advert-input width-adj" required maxlength="25" value="<?= $numberofyearsPQE ?>" >	
@@ -173,37 +165,10 @@
 					</label>
 	    			<p class="error"><?= $sectorexperience_error ?></p>
 
-	    			<!-- <h4 class="bold">Tell us about your company</h4>
-
-	    			<label>
-	    			 <p class="advert-para">Please give us a short blurb about the company which will be included in the job advert</p>
-	    			 <textarea name="aboutCompany" tabindex="19" required maxlength="1000" placeholder="Maximum 1,000 characters" class="text-style advert-textarea"> 
-	    			  <?php  if(isset($_POST['aboutCompany'])) {
-	                    echo htmlentities ($_POST['aboutCompany']); }?></textarea>
-	                 <p class="error"><?= $aboutCompany_error ?></p>
-	    			</label>
-
-	    			<label>
-	    			 <p class="advert-para">Attach the company logo. Only jpeg and png files accepted</p>
-	    			 <input type="hidden" name="MAX_FILE_SIZE" value="2000000">
-	                 <input type="file" class="apply-input-form advert-input-form" name="attachedtwo_file" tabindex="19" />
-	                 <p class="error"><?php echo $secondfile_msg; ?></p>
-	    			</label>
-
-	    			<p class="advert-para-two">Please include the links to your company's social media pages. If you do not have a page on some of the social media sites, please leave blank</p>
-	    			<fieldset>
-	    			 <input placeholder="Facebook page link" type="text" name="facebookpagelink" value="<?= $facebookpagelink ?>" tabindex="20" class="advert-input width-adj">
-	    			</fieldset>
-	    			<fieldset>
-	    			 <input placeholder="Twitter page link" type="text" name="twitterpagelink" value="<?= $twitterpagelink ?>" tabindex="21" class="advert-input width-adj">
-	    			</fieldset>
-	    			<fieldset>
-	    			 <input placeholder="Linkedin page link" type="text" name="linkedinpagelink" value="<?= $linkedinpagelink ?>" tabindex="22" class="advert-input width-adj">
-	    			</fieldset>
- -->
+	    			
 	    			<label>
 	    			 <p class="advert-para-two">The website address candidates are to be directed to, to view the role in full</p>
-	    			 <input placeholder="Email address" type="text" name="email2" value="<?= $email2 ?>" tabindex="23" class="advert-input width-adj" required minlength="8" maxlength="50">
+	    			 <input placeholder="Website address" type="text" name="email2" value="<?= $email2 ?>" tabindex="23" class="advert-input width-adj" required minlength="8" maxlength="50">
 	                 <p class="error"><?= $email2_error ?></p>
 	    			</label>	 
 

@@ -142,7 +142,7 @@ if(isset($_POST["submit"])) {
     } 
 
    
-      if ($firstname_error == "" and $lastname_error == "" and $email_error == "" and $contactnumber_error == "" and $companyname_error == "" and $companyaddress_error == "" and $companywebsite_error == "" and $companysector_error == "" and $numberofyearsPQE_error == "" and $roleterm_error == "" and $roletype_error == "" and $sectorexperience_error == "" and $email2_error == "" and $pricing_error == "" and $termsandconditions_error == "" and $file_msg == "") {
+      if ($firstname_error == "" and $lastname_error == "" and $email_error == "" and $contactnumber_error == "" and $companyname_error == "" and $companyaddress_error == "" and $companywebsite_error == "" and $companysector_error == "" and $numberofyearsPQE_error == "" and $roleterm_error == "" and $roletype_error == "" and $sectorexperience_error == "" and $email2_error == "" and $pricing_error == "" and $termsandconditions_error == "") {
         require '/home/cluster-sites/5/c/calxx.co.uk/public_html/phpmailer/src/Exception.php';
         require '/home/cluster-sites/5/c/calxx.co.uk/public_html/phpmailer/src/PHPMailer.php';
         require '/home/cluster-sites/5/c/calxx.co.uk/public_html/phpmailer/src/SMTP.php';
