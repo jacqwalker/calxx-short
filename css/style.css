@@ -265,7 +265,7 @@ header {
 /*end of job search section*/
 
 /* featured jobs section */
-.featured-job-home-page {
+.featured-job-home-page, .search-page-inset {
   width: 90%;
   margin: 0 auto;
   padding: 25px;
@@ -332,11 +332,7 @@ header {
 .home-page-heading {
   font-family: 'Roboto', serif;
   font-size: 28px;
-  text-align: center;
   color: #09c1b3;
-  padding: 0 5%;
-  width: 95%;
-  margin: 0 auto;
 }
 
 .home-page-sub-heading {
@@ -649,7 +645,7 @@ footer nav li a:hover {
   color: #09c1b3;
 }
 
-.main-container-blog {
+.main-container-blog, .search-page-container {
   width: 85%;
   margin: 100px auto;
 }
@@ -890,15 +886,46 @@ ol {
   color: white;
 }
 
+.search-page-header-section {
+  background: url(../images/cuban-car.jpg) center center no-repeat;
+  padding: 40%;
+}
+
+.search-page-header-section-nq {
+  background: url(../images/london_cab.jpg) center center no-repeat;
+}
+
+.search-page-header-section-five {
+  background: url(../images/building1.jpg) center center no-repeat;
+}
+
+.search-page-header-section-ten {
+  background: url(../images/people_in_cafe1.jpg) center center no-repeat;
+}
+
+.search-page-header-section-exec {
+  background: url(../images/black_door.jpg) center center no-repeat;
+}
+
+.search-page-header {
+  font-size: 35px;
+}
+
 .search-page-btn {
   cursor: pointer;
   padding: 10px;
+  margin-top: 10px;
+  border-radius: 0;
+  background-color: #525f71;
 }
 
-
 .search-page-btn:hover {
-  background-color: #fff;
-  color: #09c1b3;
+  background-color: #09c1b3;
+  color: #fff;
+}
+
+.search-page-container {
+  margin-top: 20px;
 }
 
 .company-details {
@@ -1495,6 +1522,10 @@ ol {
     margin-right: 12.5px;
   }
 
+  .home-page-heading {
+    padding: 0 2.5%;
+  }
+
   .home-page-section {
     padding: 25% 0;
   }
@@ -1561,6 +1592,17 @@ ol {
   /* end of blog post page styling */
 
   /*search page styling*/
+  .search-page-header-section {
+    padding: 30%;  
+  }
+
+  .search-page-inset {
+    padding: 20px;
+  }
+
+  .search-page-container {
+    width: 60%;
+  }
   /*end of search page styling*/
 
   /*role page styling*/
@@ -1760,7 +1802,7 @@ ol {
     padding: 10% 20%;
   }
 
-  .main-container-blog {
+  .main-container-blog, .search-page-container {
     width: 85%;
   }
 
@@ -1798,6 +1840,10 @@ ol {
   /*end of blog post styling*/
 
   /*search page syling*/
+  .search-page-header-section {
+    padding: 20%;
+  }
+
   .flex-item1 {
     flex: 2 1 175px;
   }
@@ -2012,7 +2058,7 @@ ol {
   }
 
   /*our blog page styling*/
-  .main-container-blog, {
+  .main-container-blog, .search-page-container {
     width: 87.5%;
   }
 
@@ -2074,6 +2120,14 @@ ol {
   /*end of blog post styling*/
 
   /*search page styling*/
+  .search-page-header-section {
+    padding: 15%;
+  }
+
+  .search-page-inset {
+    width: 55%;
+  }
+
   .search-page-heading {
     font-size: 60px;
     margin-bottom: 5px;
@@ -2196,7 +2250,7 @@ ol {
   }
 
   /*our blog page styling*/
-  .main-container-blog {
+  .main-container-blog, .search-page-container {
     width: 95%;
   }
 
@@ -2344,7 +2398,6 @@ ol {
 
   /*our blog page styling*/
   .main-container-blog {
-    width: 80%;
     margin: 150px auto;
   }
 
@@ -2381,6 +2434,9 @@ ol {
   /* end of blog post page styling */
 
   /*search page styling*/
+  .search-page-container {
+    margin-bottom: 175px;
+  }
   /*end of search page styling*/
 
   /*role page styling*/
