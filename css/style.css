@@ -842,12 +842,6 @@ ol {
 /*end of privacy policy and t&c's styling*/
 
 /*search page styling*/
-.search-page-heading {
-  font-family: 'Quando', sans-serif;
-  margin-bottom: 25px;
-  font-size: 40px;
-}
-
 .overlay {
   position: fixed;
   top: 0;
@@ -897,14 +891,14 @@ ol {
 }
 
 .search-page-btn {
-  margin-bottom: 25px;
+  cursor: pointer;
+  padding: 10px;
 }
 
-.main-container-job-search {
-  width: 85%;
-  margin: 30px auto;
-  position: relative;
-  top: -75px;
+
+.search-page-btn:hover {
+  background-color: #fff;
+  color: #09c1b3;
 }
 
 .company-details {
@@ -918,7 +912,17 @@ ol {
 .company-title-search {
   font-size: 14px;
   color: grey;
-  padding-bottom: 10px;
+  /*padding-bottom: 10px;*/
+}
+
+.full-part {
+  text-transform: uppercase;
+  background-color: #09c1b3;
+  padding: 2px;
+  width: 33%;
+  border-radius: 4px;
+  margin: 5px 0 10px;
+  font-size: 13px;
 }
 
 .heading-separator-2 {
@@ -981,11 +985,6 @@ ol {
 .apply-btn:hover, .role-page-job-alerts-btn:hover {
   background-color: #fff;
   color: #09c1b3;
-}
-
-.search-page-btn:hover {
-  background-color: #525f71;
-  color: #fff;
 }
 
 .back-to-search-page {
@@ -1460,7 +1459,7 @@ ol {
   margin: 20px 0;
 }
 
-.advert-btn:hover, .search-page-btn:hover {
+.advert-btn:hover {
   background-color: #f4948b;
 }
 
@@ -1562,10 +1561,6 @@ ol {
   /* end of blog post page styling */
 
   /*search page styling*/
-  .main-container-job-search {
-    width: 60%;
-    margin: 0 auto 30px;
-  }
   /*end of search page styling*/
 
   /*role page styling*/
@@ -1765,7 +1760,7 @@ ol {
     padding: 10% 20%;
   }
 
-  .main-container-blog, .main-container-job-search {
+  .main-container-blog {
     width: 85%;
   }
 
@@ -1803,10 +1798,6 @@ ol {
   /*end of blog post styling*/
 
   /*search page syling*/
-  .main-container-job-search {
-    margin-top: 30px;
-  }
-
   .flex-item1 {
     flex: 2 1 175px;
   }
@@ -2021,7 +2012,7 @@ ol {
   }
 
   /*our blog page styling*/
-  .main-container-blog, .main-container-job-search {
+  .main-container-blog, {
     width: 87.5%;
   }
 
@@ -2205,7 +2196,7 @@ ol {
   }
 
   /*our blog page styling*/
-  .main-container-blog, .main-container-job-search {
+  .main-container-blog {
     width: 95%;
   }
 
@@ -2256,9 +2247,6 @@ ol {
   /* end of blog post styling */
   
   /*search page styling*/
-  .main-container-job-search {
-    top: -100px;
-  }
   /*end of search page styling*/
 
   /*role page styling*/
@@ -2393,9 +2381,6 @@ ol {
   /* end of blog post page styling */
 
   /*search page styling*/
-  .main-container-job-search {
-    width: 95%;
-  }
   /*end of search page styling*/
 
   /*role page styling*/
