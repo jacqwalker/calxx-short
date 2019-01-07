@@ -1,18 +1,27 @@
 console.log("say hello");
 
 // cookies popup
-$(function () {
-  if(localStorage.getItem('popState') != 'shown'){
-      $(".cookies-popup-section").delay(2000).fadeIn();
-      localStorage.setItem('popState','shown');
-  } else {
-    document.querySelector(".cookies-popup-section").style.display = "none";
-  }
-  });
+// $(function () {
+//   if(localStorage.getItem('popState') != 'shown'){
+//       $(".cookies-popup-section").delay(2000).fadeIn();
+//       localStorage.setItem('popState','shown');
+//   } else {
+//     document.querySelector(".cookies-popup-section").style.display = "none";
+//   }
+//   });
 
-$('.close-cookies-popup').click(function(e) {
-    $('.cookies-popup-section').fadeOut();
-  });
+// $('.close-cookies-popup').click(function(e) {
+//     $('.cookies-popup-section').fadeOut();
+//   });
+
+function closeCookies(e) {
+  e.preventDefault();
+  $('.cookies-popup-section').fadeOut();
+}
+
+$(".close-cookies-popup").click(closeCookies);
+
+
 
 // set up page loading job search
 $(function () {
