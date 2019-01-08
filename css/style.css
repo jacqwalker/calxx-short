@@ -577,12 +577,14 @@ footer nav li a:hover {
   background-color: #272c2f;
   text-align: center;
   padding: 15px 10px;
-  color: #999;
+  color: #fff;
   position: fixed;
   bottom: 0;
   left: 0;
   right: 0;
   z-index: 99999;
+  font-weight: bold;
+  letter-spacing: 1;
 }
 
 .cookies-link {
@@ -601,6 +603,7 @@ footer nav li a:hover {
   padding: 5px 15px;
   color: #fff;
   margin: 10px auto 0;
+  font-weight: bold;
 }
 
 .close-cookies-popup:hover {
@@ -950,6 +953,20 @@ ol {
   border-radius: 4px;
   margin: 5px 0 10px;
   font-size: 13px;
+  display: inline-block;
+  width: 45%;
+}
+
+.newqual-sector {
+  background-color: #f4948b;
+}
+
+.twoyears-sector {
+  background-color: #525f71;
+}
+
+.utilities-sector {
+  background-color: #
 }
 
 .heading-separator-2 {
