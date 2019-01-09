@@ -670,7 +670,7 @@ footer nav li a:hover {
   text-decoration: none;
   color: #09c1b3;
   font-weight: bold;
-  font-size: 13px;
+  font-size: 15px;
 }
 
 .blog-read-more-link:hover {
@@ -931,18 +931,28 @@ ol {
   margin-top: 20px;
 }
 
+.key-info-container img {
+  height: 80px;
+  width: 100px;
+  float: left;
+}
+
 .company-details {
   margin-top: 7.5px;
 }
 
 .job-title-search {
-  font-size: 18px;
+  font-size: 20px;
+  padding-bottom: 5px;
+  letter-spacing: 1px;
+  float: right;
+  width: 50%;
 }
 
 .company-title-search {
   font-size: 14px;
   color: grey;
-  /*padding-bottom: 10px;*/
+  padding-bottom: 5px;
 }
 
 .full-part {
@@ -962,7 +972,8 @@ ol {
 }
 
 .twoyears-sector {
-  background-color: #525f71;
+  /*background-color: #b309c1;*/
+  background-color: #5709c1;
 }
 
 .fiveyears-sector {
@@ -1827,7 +1838,7 @@ ol {
     padding: 10% 20%;
   }
 
-  .main-container-blog, .search-page-container {
+  .main-container-blog {
     width: 85%;
   }
 
@@ -1835,6 +1846,14 @@ ol {
     width: 45%;
     margin-left: 25px;
     padding: 20px;
+  }
+
+  .flex-heading {
+    flex: 1 1 75px;
+  }
+
+  .flex-items {
+    flex: 1 1 75px; 
   }
   /*our blog page styling*/
 
@@ -1869,12 +1888,12 @@ ol {
     padding: 20%;
   }
 
-  .flex-item1 {
-    flex: 2 1 175px;
+  .search-page-container {
+    width: 87.5%;
   }
 
   .flex-item2 {
-    flex: 1 1 100px;
+    flex: 1 1 80px;
   }
   /*end of serach page styling*/
 
@@ -2084,7 +2103,7 @@ ol {
 
   /*our blog page styling*/
   .main-container-blog, .search-page-container {
-    width: 87.5%;
+    width: 92.5%;
   }
 
   .blog-header-section {
@@ -2146,7 +2165,7 @@ ol {
 
   /*search page styling*/
   .search-page-header-section {
-    padding: 15%;
+    padding: 10%;
   }
 
   .search-page-inset {
@@ -2288,20 +2307,12 @@ ol {
   }
 
   .blog-wrapper {
-    width: 20%;
-    margin-left: 40px;
-  }
-
-  .flex-heading {
-    flex: 1 1 50px;
+    width: 21.5%;
+    margin-left: 35px;
   }
 
   .blog-snippet-heading {
     padding: 0;
-  }
-
-  .flex-items {
-    flex: 1 1 60px;
   }
   /*end of blog page styling*/
 
@@ -2438,8 +2449,12 @@ ol {
     width: 20%;
   }
 
+  .flex-heading {
+    flex: 1 1 55px;
+  }
+
   .flex-items {
-    flex: 1 1 50px;
+    flex: 1 1 60px;
   }
   /*end of our blog page styling*/
 
