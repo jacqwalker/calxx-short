@@ -2314,7 +2314,7 @@ ol {
   }
 
   /*our blog page styling*/
-  .main-container-blog, .search-page-container {
+  .main-container-blog {
     width: 95%;
   }
 
@@ -2326,7 +2326,7 @@ ol {
     width: 10%;
   }
 
-  .blog-wrapper, .job-card {
+  .blog-wrapper {
     width: 21.5%;
     margin-left: 35px;
   }
@@ -2357,6 +2357,18 @@ ol {
   /* end of blog post styling */
   
   /*search page styling*/
+  .search-page-container {
+    width: 80%;
+  }
+
+  .role-image {
+    width: 200px;
+    height: 160px;
+  }
+
+  .company-details {
+    margin-left: 25px;
+  }
   /*end of search page styling*/
 
   /*role page styling*/
@@ -2466,7 +2478,7 @@ ol {
     width: 7.5%;
   }
 
-  .blog-wrapper, .job-card {
+  .blog-wrapper {
     width: 22%;
   }
 
@@ -2497,16 +2509,9 @@ ol {
   /*search page styling*/
   .search-page-container {
     margin-bottom: 175px;
-    width: 90%;
+    width: 70%;
   }
 
-  .job-card {
-    margin-right: 0;
-  }
-
-  .apply-now-btn {
-    width: 35%;
-  }
   /*end of search page styling*/
 
   /*role page styling*/
