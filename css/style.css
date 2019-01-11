@@ -1029,6 +1029,10 @@ ol {
 .apply-now-btn i {
   margin-left: 5px;
 }
+
+.action-btn {
+  border-color: #525f71;
+}
 /*end of search page styling*/
 
 /*role page styling*/
@@ -2209,15 +2213,24 @@ ol {
     width: 80px;
   }
 
+  .button-section {
+    display: inline-block;
+    width: 100px;
+    vertical-align: top;
+  }
+
   .apply-now-btn {
-    width: 120px;
     display: inline-block;
     vertical-align: top;
-    margin-top: 0;
+    margin: 0 0 10px;
     border: none;
     background-color: #09c1b3;
     border-radius: 18px;
     color: #fff;
+  }
+
+  .action-btn {
+    background-color: #525f71;
   }
   /*end of search page styling*/
 
