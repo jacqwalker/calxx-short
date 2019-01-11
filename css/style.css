@@ -203,12 +203,12 @@ header {
   margin: 0 auto 10px;
 }
 
-.form-submit-btn:hover, .home-page-btn:hover, .job-alerts:hover {
+.form-submit-btn:hover, .home-page-btn:hover {
   color: #09c1b3;
   background-color: white;
 }
 
-.home-page-btn, .job-alerts {
+.home-page-btn {
   margin: 15px auto;
 }
 
@@ -281,6 +281,7 @@ header {
   letter-spacing: 1.5px;
   margin-bottom: 20px;
   color: #525f71;
+  font-family: 'Varela Round';
 }
 
 .featured-job {
@@ -330,7 +331,7 @@ header {
 }
 
 .home-page-heading {
-  font-family: 'Roboto', serif;
+  font-family: 'Varela Round', serif;
   font-size: 28px;
   color: #09c1b3;
 }
@@ -341,7 +342,8 @@ header {
   margin: 25px auto 20px;
   font-size: 16px;
   color: #525f71;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.75px;
+  font-family: 'Varela Round';
 }
 
 .home-page-para {
@@ -408,6 +410,7 @@ header {
   font-size: 25px;
   padding-top: 10px;
   margin-bottom: 10px;
+  font-family: 'Varela Round';
 }
 
 .popular-pricing-h3 {
@@ -427,6 +430,11 @@ header {
   font-size: 30px;
   font-family: 'Merriweather', sans-serif;
   margin-bottom: 15px;
+}
+
+.pricing-para {
+  font-family: 'Varela Round';
+  letter-spacing: 0.5px;
 }
 
 .VAT {
@@ -516,6 +524,8 @@ header {
 
 .footer-p {
   font-size: 14px;
+  font-family: 'Varela Round';
+  letter-spacing: 0.75px;
 }
 
 .social-media-div {
@@ -910,21 +920,28 @@ ol {
   background: url(../images/black_door.jpg) center center no-repeat;
 }
 
+.search-page-inset {
+  border-radius: 3px;
+}
+
 .search-page-header {
   font-size: 35px;
+  margin-bottom: 10px;
 }
 
 .search-page-btn {
   cursor: pointer;
-  padding: 10px;
-  margin-top: 10px;
-  border-radius: 0;
-  background-color: #525f71;
+  padding-bottom: 5px;
+  text-decoration: none;
+  border-bottom: 1px solid #999;
+  font-family: 'Varela Round';
+  font-weight: 600;
+  display: inline-block;
+  margin-right: 20px;
 }
 
 .search-page-btn:hover {
-  background-color: #09c1b3;
-  color: #fff;
+  color: #09c1b3;
 }
 
 .search-page-container {
@@ -995,6 +1012,7 @@ ol {
   padding: 5px 10px;
   margin: 15px 0 0;
   border-radius: 3px;
+  display: block;
 }
 
 .apply-now-btn:hover {
@@ -1969,7 +1987,7 @@ ol {
     width: 60%;
   }
 
-  .home-page-btn, .job-alerts, .how-it-works-btn {
+  .home-page-btn, .how-it-works-btn {
     font-size: 18px;
   }
 
@@ -2509,7 +2527,7 @@ ol {
   /*search page styling*/
   .search-page-container {
     margin-bottom: 175px;
-    width: 70%;
+    width: 65%;
   }
 
   /*end of search page styling*/
