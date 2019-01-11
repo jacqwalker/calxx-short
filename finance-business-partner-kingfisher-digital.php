@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css" />
 
-    <link href="https://fonts.googleapis.com/css?family=Merriweather|Quando|Roboto|Source+Sans+Pro" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|Quando|Roboto|Source+Sans+Pro|Varela+Round" rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -603,7 +603,7 @@
           </ul>
         </div>       
          
-        <p class="footer-p bold">STARTED BY AN ACA. SIMPLER. BETTER. EASIER</p>      
+        <p class="footer-p bold">It's never been easier to find a new job</p>      
         
       </div>
     </section>
@@ -615,7 +615,7 @@
           <li><a href="https://www.calxx.co.uk/privacypolicy">Privacy Policy</a></li>
         </ul>
       </nav>
-      <p class="font-white">2018 &copy <span class="calxx-font">calxx</span></p>
+      <p class="font-white">2019 &copy <span class="calxx-font">calxx</span></p>
     </footer>
 
     <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
