@@ -948,6 +948,10 @@ ol {
   margin-top: 20px;
 }
 
+.search-page-heading {
+  border-bottom: 2px solid #09c1b3;
+}
+
 .job-title-search {
   font-size: 20px;
   padding-top: 10px;
@@ -1008,16 +1012,22 @@ ol {
 .apply-now-btn {
   border: 2px solid #09c1b3;
   text-decoration: none;
-  width: 50%;
+  width: 130px;
   padding: 5px 10px;
   margin: 15px 0 0;
   border-radius: 3px;
   display: block;
+  font-family: 'Varela Round';
 }
 
 .apply-now-btn:hover {
-  background-color: #09c1b3;
+  background-color: #079A8F;
   color: #fff;
+  border: none;
+}
+
+.apply-now-btn i {
+  margin-left: 5px;
 }
 /*end of search page styling*/
 
@@ -1635,10 +1645,6 @@ ol {
   .search-page-container {
     width: 60%;
   }
-
-  .apply-now-btn {
-    width: 45%;
-  }
   /*end of search page styling*/
 
   /*role page styling*/
@@ -2175,15 +2181,10 @@ ol {
     width: 55%;
   }
 
-  .search-page-heading {
-    font-size: 60px;
-    margin-bottom: 5px;
-  }
-
   .job-card {
     background-color: #fff;
     width: 85%;
-    border-bottom: 2px solid #f5f5f5;
+    border-bottom: 2px solid #09c1b3;
     margin: 25px auto;
   }
 
@@ -2196,7 +2197,7 @@ ol {
 
   .company-details {
     display: inline-block;
-    width: 57.5%;
+    width: 55%;
     margin-left: 15px;
   }
 
@@ -2209,10 +2210,14 @@ ol {
   }
 
   .apply-now-btn {
-    width: 100px;
+    width: 120px;
     display: inline-block;
     vertical-align: top;
     margin-top: 0;
+    border: none;
+    background-color: #09c1b3;
+    border-radius: 18px;
+    color: #fff;
   }
   /*end of search page styling*/
 
