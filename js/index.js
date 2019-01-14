@@ -3,7 +3,7 @@ console.log("say hello");
 // cookies popup
 $(function () {
   if(sessionStorage.getItem('popState') != 'shown'){
-      $(".cookies-popup-section").delay(2000).fadeIn();
+      $(".cookies-popup-section").delay(0).fadeIn();
       sessionStorage.setItem('popState','shown');
   } else {
     document.querySelector(".cookies-popup-section").style.display = "none";

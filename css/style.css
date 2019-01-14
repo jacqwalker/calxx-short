@@ -138,6 +138,7 @@ header {
   transition: max-height 0.5s;
   clear: both;
   background-color: #525f71;
+  font-family: 'Varela Round';
 }
 
 .nav-header ul {
@@ -203,12 +204,12 @@ header {
   margin: 0 auto 10px;
 }
 
-.form-submit-btn:hover, .home-page-btn:hover {
+.form-submit-btn:hover, .home-page-btn:hover, .job-alerts:hover {
   color: #09c1b3;
   background-color: white;
 }
 
-.home-page-btn {
+.home-page-btn, .job-alerts {
   margin: 15px auto;
 }
 
@@ -594,7 +595,8 @@ footer nav li a:hover {
   right: 0;
   z-index: 99999;
   font-weight: bold;
-  letter-spacing: 1;
+  letter-spacing: 1px;
+  font-family: 'Varela Round';
 }
 
 .cookies-link {
@@ -938,6 +940,7 @@ ol {
   font-weight: 600;
   display: inline-block;
   margin-right: 20px;
+  font-size: 18px;
 }
 
 .search-page-btn:hover {
@@ -949,7 +952,7 @@ ol {
 }
 
 .search-page-heading {
-  border-bottom: 2px solid #09c1b3;
+  border-bottom: 3px solid #09c1b3;
 }
 
 .job-title-search {
@@ -1012,7 +1015,7 @@ ol {
 .apply-now-btn {
   border: 2px solid #09c1b3;
   text-decoration: none;
-  width: 130px;
+  width: 135px;
   padding: 5px 10px;
   margin: 15px 0 0;
   border-radius: 3px;
@@ -1033,6 +1036,23 @@ ol {
 .action-btn {
   border-color: #525f71;
 }
+
+.action-footer {
+  border-top: 3px solid #525f71;
+  padding-top: 5px;
+}
+
+.action-footer-link {
+  float: left;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-family: 'Varela Round';
+}
+
+.action-footer-link-two {
+  float: right;
+}
+
 /*end of search page styling*/
 
 /*role page styling*/
@@ -1069,7 +1089,7 @@ ol {
   text-decoration: none;
 }
 
-.back-to-search-page a:hover {
+.back-to-search-page a:hover, .action-footer-link:hover {
   color: #525f71;
 }
 
@@ -1997,7 +2017,7 @@ ol {
     width: 60%;
   }
 
-  .home-page-btn, .how-it-works-btn {
+  .home-page-btn, .how-it-works-btn, .job-alerts {
     font-size: 18px;
   }
 
