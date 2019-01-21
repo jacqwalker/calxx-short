@@ -945,6 +945,7 @@ ol {
 
 .search-page-btn:hover {
   color: #09c1b3;
+  border-color: #09c1b3;
 }
 
 .search-page-container {
@@ -984,6 +985,11 @@ ol {
   border-radius: 4px;
   font-size: 13px;
   display: inline-block;
+}
+
+.interim {
+  background-color: #09c157;
+  /*background-color: #0973c1;*/
 }
 
 .key-requirements-container {
@@ -1038,8 +1044,8 @@ ol {
 }
 
 .action-footer {
-  border-top: 3px solid #525f71;
-  padding-top: 5px;
+  border-top: 3px solid #09c1b3;
+  margin-top: 50px;
 }
 
 .action-footer-link {
