@@ -384,6 +384,7 @@ header {
 
 .pricing-container-main {
   margin-top: 50px;
+  text-align: center;
 }
 
 .pricing-packages {
@@ -2085,7 +2086,7 @@ ol {
   }
 
   .pricing-container-main {
-    width: 70%;
+    width: 85%;
     margin: 50px auto 0;
   }
 
